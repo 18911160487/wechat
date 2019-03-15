@@ -1,0 +1,27 @@
+<view style="display: {{pageIsShow ? 'block' : 'none'}}"> 
+	<view class="navbarCon">
+		<view class="navbar" style="transform: translateX({{translateX}}px);" bindtouchmove="ballNavMoveEvent">
+			<block wx:for="{{navbarTitle}}" wx:key="index">
+				<view class="navbar-item navbarItem {{navbarActiveIndex === index ? 'navbar-item-active' : ''}}" data-navbar-index="{{index}}" catchtap="onNavBarTap">
+					<text>{{item.text}}</text>
+				</view>
+			</block>
+		</view>
+	</view>
+	<view class="movie-content-wrapper">
+		<swiper class="product-item" current="{{navbarActiveIndex}}" bindanimationfinish="onBindAnimationFinish">
+			<swiper-item wx:for="{{detailMsgList}}" wx:key="dayItem_{{index}}" wx:for-item="dayItem">
+				<scroll-view class="product-container" scroll-y="{{true}}">
+					<view class="product-each-con productEachCon" wx:for="{{dayItem}}" wx:key="item_{{index}}" wx:for-item="item">
+						<view class="product-each">
+							<view class="product-each-imgCon">
+								<image class="product-each-img" mode="widthFix" src="{{item.url}}" />
+							</view>
+							<view class="product-each-text">{{item.text}}</view>
+						</view>
+					</view>
+				</scroll-view>
+			</swiper-item>
+		</swiper>
+	</view>
+</view>

@@ -1,0 +1,54 @@
+{
+	"pages": [
+		"pages/index/index",
+		"pages/list/list",
+		"pages/connection/connection",
+		"pages/introduction/introduction",
+		"pages/map/map"
+	],
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
+	},
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "WeChat",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"color": "#888888",
+		"selectedColor": "#f03456",
+		"borderStyle": "black",
+		"backgroundColor": "#ececec",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "img/index.png",
+				"selectedIconPath": "img/index.png"
+			}, {
+				"pagePath": "pages/list/list",
+				"text": "展柜案例",
+				"iconPath": "img/list.png",
+				"selectedIconPath": "img/list.png"
+			}, {
+				"pagePath": "pages/introduction/introduction",
+				"text": "公司简介",
+				"iconPath": "img/introduction.png",
+				"selectedIconPath": "img/introduction.png"
+			}, {
+				"pagePath": "pages/connection/connection",
+				"text": "联系我们",
+				"iconPath": "img/connection.png",
+				"selectedIconPath": "img/connection.png"
+			}, {
+				"pagePath": "pages/map/map",
+				"text": "导航",
+				"iconPath": "img/map.png",
+				"selectedIconPath": "img/map.png"
+			}
+		]
+	}
+}

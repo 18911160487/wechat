@@ -1,0 +1,9 @@
+<view class="container">
+	<image class="connection-banner" mode="widthFix" src="http://img1.imgtn.bdimg.com/it/u=873265023,1618187578&fm=26&gp=0.jpg" />
+	<view class="connection-title">联系我们</view>	
+	<view class="connection-content" wx:for="{{connection}}" wx:key="index">
+		<view class="connection-content-type">{{item.title}}</view>
+		<view class="connection-content-desc" data-index="{{index}}" bindtap="onCompanyPhoneTap">{{item.content}}</view>
+	</view>
+	<view class="connection-corporate-name">{{connection[0].content}}</view>
+</view>

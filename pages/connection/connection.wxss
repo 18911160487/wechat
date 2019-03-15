@@ -1,0 +1,36 @@
+.connection-banner {
+	width: 100%;
+}
+
+.connection-title {
+	font-size: 16px;
+	line-height: 64px;
+	text-align: center;
+	color: #00ab8a;
+}
+
+.connection-content {
+	width: 93%;
+	height: 20px;
+	margin: 5px auto;
+	padding: 5px;
+	border: 1px solid #d8d8d8;
+	font-size: 12px;
+	line-height: 20px;
+	color: #959595;
+}
+
+.connection-content-type {
+	float: left;
+	width: 60px;
+	margin-right: 10px;
+	border-right: 1px solid #d8d8d8;
+}
+
+.connection-corporate-name {
+	font-size: 14px;
+	line-height: 3;
+	color: #bebebe;
+	text-align: center;
+	border-top: 1px solid #d9d9d9;
+}

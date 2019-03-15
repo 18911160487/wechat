@@ -1,0 +1,101 @@
+page {
+	background: #f9f9f9;
+}
+
+.movie-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.navbarCon {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 50px;
+}
+
+.navbar {
+	width: 800px;
+	height: 100%;
+	text-align: center;
+	color: #666;
+	font-size: 15px;
+	font-weight: bold;
+	box-sizing: border-box;
+	background-color: #FFF;
+	border-bottom: 1rpx solid #DFDFDF;
+}
+
+.navbar {
+	transition: all 0.1s;
+}
+
+.navbarCon::-webkit-scrollbar {
+	width: 0px;
+	height: 0px;
+}
+
+.navbarCon::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0);
+	background: rgba(0, 0, 0, 0);
+}
+
+.navbarCon::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0);
+	border-radius: 0;
+	background: rgba(0, 0, 0, 0);
+}
+
+.navbar-item {
+	float: left;
+	width: 100px;
+	padding: 13px 0px;
+}
+
+.navbar-item-active {
+	transition: all 0.3s;
+	border-bottom: 2px solid #f03456;
+	color: #f03456;
+}
+
+.movie-content-wrapper {
+	position: fixed;
+	left: 0;
+	top: 50px;
+	right: 0;
+	bottom: 0;
+}
+
+.product-item {
+	width: 100%;
+	height: 100%;
+}
+
+.product-container {
+	width: 100%;
+	height: 100%;
+}
+
+.product-each-con {
+	float: left;
+	width: 50%;
+}
+
+.product-each {
+	margin: 7px 2.1%;
+	border: 1px solid #e6e6e6;
+}
+
+.product-each-imgCon,
+.product-each-img {
+	width: 100%;
+}
+
+.product-each-text {
+	padding-left: 10px;
+	font-size: 14px;
+	line-height: 40px;
+	color: #131313;
+}

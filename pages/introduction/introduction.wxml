@@ -1,0 +1,35 @@
+<view class="container" >
+	<image src="http://img1.imgtn.bdimg.com/it/u=873265023,1618187578&fm=26&gp=0.jpg" mode="widthFix" class="banner" />
+	<view class="company-msg">
+		<view class="company-address" bindtap="onCompanyAddressTap">
+			<image src="/img/address.png" mode="widthFix" class="company-address-img" />
+			四川省成都市新都区龙桥镇[导航]
+		</view>
+		<view class="company-time">
+			<image src="/img/time.png" mode="widthFix" class="company-time-img" />
+			00:00-24:00
+		</view>
+		<view class="company-phone" bindtap="onCompanyPhoneTap">
+			<image src="/img/phone.png" mode="widthFix" class="company-phone-img" />
+			18911160487[点击拨打]
+		</view>
+	</view>
+	
+	<view class="introduction">
+		<view class="introduction-title">公司简介</view>
+		<view class="introduction-desc">
+			成都博汉展览展示有限公司位于成都什邡工业园区，占地面积7万平方。是一家专注研发设计生产精品展柜、
+			木质烤漆展柜、化妆品展柜、珠宝展柜、汽车用品展柜等，以及货架铝型材、配件的企业，并靠自主研发、设计、生产、销售和安装于全国经销商建立长期合作关系。
+		</view>
+		<view class="introduction-desc">
+			成都博汉展览展示有限公司位于成都什邡工业园区，占地面积7万平方。是一家专注研发设计生产精品展柜、
+			木质烤漆展柜、化妆品展柜、珠宝展柜、汽车用品展柜等，以及货架铝型材、配件的企业，并靠自主研发、设计、生产、销售和安装于全国经销商建立长期合作关系。
+		</view>
+		<view class="introduction-desc">
+			成都博汉展览展示有限公司位于成都什邡工业园区，占地面积7万平方。是一家专注研发设计生产精品展柜、
+			木质烤漆展柜、化妆品展柜、珠宝展柜、汽车用品展柜等，以及货架铝型材、配件的企业，并靠自主研发、设计、生产、销售和安装于全国经销商建立长期合作关系。
+		</view>
+	</view>
+	
+	<view class="copyright">成都合力展柜</view>
+</view>

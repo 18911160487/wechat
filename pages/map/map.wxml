@@ -1,0 +1,3 @@
+<view class="map-con">
+	<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="16" style="width: 100%; height: 100%;" show-location controls="{{controls}}" bindcontroltap="handleControlTap"></map>
+</view>
